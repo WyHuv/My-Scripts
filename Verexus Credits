@@ -1,13 +1,11 @@
 --Credits
 
-getgenv().Username = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/WyHuv/ObfuscatedByMoonSec_2/main/JSON")).Username
 getgenv().Discord = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Discord
 getgenv().Youtube = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Youtube
 getgenv().Pastebin = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Maxgat5/Decode/main/JSON")).Pastebin
 
 --Wait For No Bugs
 
-repeat wait() until getgenv().Username ~= nil
 repeat wait() until getgenv().Discord ~= nil
 repeat wait() until getgenv().Youtube ~= nil
 repeat wait() until getgenv().Pastebin ~= nil
